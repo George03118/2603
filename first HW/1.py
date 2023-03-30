@@ -1,17 +1,13 @@
-def result (x, y):
-    return (x+2)*(y-3)
+def square(c):
+    return (c*9/5)+ 32
+numbers = [10, 20, 30, 40]
+squareed_numbers = map(square, numbers)
+print(list(squareed_numbers))
 
-def func(result):
-    if result<0:
-        s1 = "negative"
-    else:
-        s1 = "positive"
-        return s1
-
-    if __name__ =='__main__':
-        print_hi('George')
-        number = result(4,4)
-        print (number)
-        print(func(number))
-
-
+def square(c):
+    return (c*9/5)+ 32
+numbers = [10, 20, 30, 40]
+squareed_numbers = map(square, numbers)
+print(list(squareed_numbers))
+def dewite (c):
+    return c / 5
