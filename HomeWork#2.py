@@ -1,2 +1,2 @@
-30.03.
-18:57
+file = open("HomeWork#6.txt" , "w")
+file.write("Hello")
